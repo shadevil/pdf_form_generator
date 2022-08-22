@@ -23,7 +23,7 @@
 </header>
 <div class="container">
     <div class="form">
-    <form action="" method="post">
+    <form action="send.php" method="post">
         <a href="#">
     <div class="logo">
         <div class="part1"><img src="images/part1.png" alt="logo"></div>
@@ -31,10 +31,12 @@
 
     </div>
         </a>
+        <div class="select">
     <select id="clientTypes">
         <option value="" disabled selected>--Выбрать--</option>
         <?php getClientTypes(); ?>
     </select>
+        </div>
         <div class="formContainer"></div>
     </form>
     </div>
